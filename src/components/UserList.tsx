@@ -79,8 +79,8 @@ const UserList = () => {
 
   return (
     <>
-      <div className="container">
-        <h2>All Users</h2>
+      <div className="container mt-3">
+        <h2>Users List</h2>
 
         {loading && <div className="spinner-border"></div>}
 
